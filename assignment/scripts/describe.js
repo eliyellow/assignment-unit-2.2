@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We make a variable called name and set it to Dane as a name.
+// We make a condition that says if name is equal to Mary then the console.log should read 'Hi, Mary!'
+// If the input is not Mary, then console.log should read, 'How do you do?'
 //
 
 //CODE
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// We create a variable called secret. 
+// We make a variable called code and make it equal 123.
+// We make a condition that says if code equals 123 is true, then secret will equal 'super' and code  will multiply by 2.
 //
+// We make another condition that says if code is greater than 250, then, secret is 'duper' 
+// Console.log would be 246
 
 //CODE
 /*
@@ -70,10 +72,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called isStudent and make it equal true.
+// We make a variable called age and make it equal 34.
+// We make a variable called zip and make it equal 55407.
+// We make a condition where if isStudent is true and zip is greater than 80000 then the console.log will read 'You're a student on the West Cost!'
+// And if isStudent is false or the age input is less than 30, then console.log will read 'What are your hobbies?'
+// And if isStudent is true then console.log will read 'Welcome to Prime!'
+// If none of the above console.log are true, console.log will read 'How about the weather?'
 
 //CODE
 /*
@@ -134,6 +139,9 @@ let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - colorOne is set to blue and reads as read in the code. Change to 'blue'. colorTwo is set to 'red' but reads as 'blue'. Change to 'blue'.
+// FIX - colorOne needs to change to a combo of colorOne and colorTwo in order to be true/purple 
+
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -142,6 +150,9 @@ if (mix === true) {
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
+
+// The code reads if temp is greater than 39 or time is greater than 4 (not 'and')
+// 
 
 /*
 let temp = 40;
@@ -155,6 +166,10 @@ if (temp > 39 || time >= 4) {
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
 // -- it is, so we console.log 'enter'.
+
+//minAge should read ">= age not <="
+// If the purpose of the code is not to allow persons under 21 to enter site, the code should read
+// if(minAge < age etc..)
 
 /*
 let age = 21;
